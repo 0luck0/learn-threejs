@@ -3,7 +3,7 @@
 </template>
 <script lang="ts">
 import { defineComponent, onMounted, ref } from 'vue'
-import { Scene, PerspectiveCamera, WebGLRenderer, Color,DirectionalLight, AxesHelper, MeshLambertMaterial, PlaneGeometry, Mesh, BoxGeometry, SphereGeometry, SpotLight, AmbientLight } from 'three'
+import { Scene, PerspectiveCamera, WebGLRenderer, Color,DirectionalLight, AxesHelper, MeshLambertMaterial, PlaneGeometry, Mesh, BoxGeometry, SphereGeometry,  AmbientLight } from 'three'
 // 引入轨道控制器扩展库OrbitControls.js
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 
